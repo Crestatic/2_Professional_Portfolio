@@ -1,0 +1,112 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Header styling */
+.header {
+    height: 70px;
+    background-color: #000080;
+    font: white;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav {
+    height: 70px;
+    display: flex;
+    
+}
+
+.header nav ul li a {
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+}
+
+ul {
+    width: 800px;
+    display: flex;
+    list-style-type: none;
+    width: 100%;
+    font-size: 30px;
+    align-items: center;
+    justify-content: end;
+}
+
+li {
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #ffffff;
+    justify-content: space-between;
+}
+
+/* About me styling */
+.hero {
+    height: 800px;
+    flex-direction: row;
+    width: 70%;
+    align-items: center;
+    margin: auto;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 40px;
+}
+
+.hero h1 {
+    font-size: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.hero h2 {
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+}
+
+.hero img {
+    justify-content: space-around;
+}
+
+.social-links {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+/* Projects styling*/
+.work {
+    height: 1800px;
+    background-color: #a7d3df;
+}
+   
+.main-project {
+    background-color: #ffffff;
+    height: 500px;
+    width: 70%;
+    border: 2px;
+    border-style: outset;
+    margin: auto;
+}
+
+.main-project img {
+    height: 80%;
+    width: 100%;
+}
+
+.side-project {
+    background-color: #ffffff;
+    height: 300px;
+    width: 70%;
+    border: 2px;
+    border-style: outset;
+    margin: auto;
+}
+
+.side-project img {
+    height: 60%;
+    width: 100%
+}
+
+/* Contact info styling */
