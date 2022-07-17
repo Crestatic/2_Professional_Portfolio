@@ -72,13 +72,17 @@ li {
 
 /* Projects styling*/
 .work {
-    height: 1900px;
+    height: 1400px;
     background-color: #6fbacf;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .work h2 {
+    width: 40%;
     position: relative;
-    margin: 0 28% 1.5rem 28%;
+    margin: auto;
     padding: 0.5rem 1rem;
     border: 2px solid;
     border-radius: 20px;
@@ -93,7 +97,7 @@ li {
     width: 70%;
     border: 2px;
     border-style: hidden;
-    margin: 15px 15% 15px 15%;
+    margin: 0px 15% 0px 15%;
 }
 
 .main-project img {
@@ -103,12 +107,12 @@ li {
 
 .main-project h3 {
     position: relative;
-    margin: -2.5rem 28% 1.5rem 28%;
+    margin: -2.5rem 23% 1.5rem 23%;
     padding: 0.5rem 1rem;
     border: 2px solid;
     border-radius: 50px;
     background-color: aqua;
-    width: 40%;
+    width: 50%;
     font-size: 35px;
     text-align: center;
 }
@@ -120,13 +124,19 @@ li {
     text-align: center;
 }
 
+.side {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 .side-project {
     background-color: #ffffff;
-    height: 300px;
-    width: 70%;
+    height: 350px;
+    width: 34%;
     border: 2px;
     border-style: hidden;
-    margin: 15px 15% 15px 15%;
+    margin: 0px 1% 15px 1%;
 }
 
 .side-project img {
@@ -136,18 +146,18 @@ li {
 
 .side-project h3 {
     position: relative;
-    margin: -2.5rem 28% 1.5rem 28%;
+    margin: -2.5rem 18% 1.5rem 18%;
     padding: 0.5rem 1rem;
     border: 2px solid;
     border-radius: 50px;
     background-color: aqua;
-    width: 40%;
-    font-size: 35px;
+    width: 60%;
+    font-size: 30px;
     text-align: center;
 }
 
 .side-project p {
-    font-size: 30px;
+    font-size: 25px;
     position: relative;
     margin: -1rem 15% 1.5rem 15%;
     text-align: center;
@@ -168,4 +178,21 @@ li {
 footer {
     height: 75px;
     text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .hero {
+        height: 900px;
+    }
+
+    .work {
+        height: 2100px;
+    }
+    
+    .side-project {
+        width: 70%;
+    }
+
+
+    
 }
