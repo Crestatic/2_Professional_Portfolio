@@ -10,7 +10,6 @@ body {
     height: 70px;
     background-color: #000080;
     font: white;
-    font-size: 40px;
 }
 
 nav {
@@ -41,7 +40,7 @@ li {
 
 /* About me styling */
 .hero {
-    height: 800px;
+    height: 850px;
     flex-direction: row;
     width: 70%;
     align-items: center;
@@ -67,6 +66,7 @@ li {
 .social-links {
     margin-right: 10px;
     margin-left: 10px;
+    text-decoration: none;
 }
 
 
@@ -98,6 +98,7 @@ li {
     border: 2px;
     border-style: hidden;
     margin: 0px 15% 0px 15%;
+    font-size: 30px;
 }
 
 .main-project img {
@@ -118,7 +119,7 @@ li {
 }
 
 .main-project p {
-    font-size: 30px;
+    
     position: relative;
     margin: -1rem 15% 1.5rem 15%;
     text-align: center;
@@ -180,6 +181,23 @@ footer {
     text-align: center;
 }
 
+/* Pseudo ELements */
+::selection {
+    background-color: blueviolet;
+    color: aqua;
+}
+
+.main-project:hover {
+    border: 10px solid;
+    border-color: aqua;
+}
+
+.side-project:hover {
+    border: 10px solid;
+    border-color: aqua;
+}
+
+/* Media queries */
 @media screen and (max-width: 768px) {
     .hero {
         height: 900px;
@@ -191,8 +209,37 @@ footer {
     
     .side-project {
         width: 70%;
+    }  
+}
+
+@media screen and (max-width: 425px) {
+    .header nav ul li a {
+        font-size: 20px;
     }
 
+    .hero {
+        font-size: 25px;
+        height: 700px;
+    }
 
+    .hero h1 {
+        font-size: 30px;
+    }
+
+    .main-project {
+        font-size: 25px;
+    }
+
+    .main-project h3 {
+        font-size: 30px;
+    }
     
+    .work h2 {
+        font-size: 30px;
+    }
+
+    .work .mp-image {
+        height: 60%;
+    }
+
 }
