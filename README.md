@@ -18,7 +18,7 @@ Font size automatically adjust with smaller screen size to fit.
 [link](https://crestatic.github.io/2_Professional_Portfolio/)
 
 # Image of Website (Medium)
-![alttext](assets/images/127.0.0.1_5501_index.html%20(M)).png
+![alttext](assets/images/127.0.0.1_5501_index.html%20(M))
 
 # Image of Website (Large)
-![alttext](assets/images/127.0.0.1_5501_index.html%20(L)).png
+![alttext](assets/images/127.0.0.1_5501_index.html%20(L))
