@@ -12,13 +12,15 @@ Placeholder links are set for all social and project links.
 
 Media queries are set for screen 425px, 768px, and larger.
 
+At large screen size, side projects are stacked 2x2 whereas at medium screen size they are all stacked in a column.
+
 Font size automatically adjust with smaller screen size to fit.
 
 # Link to Portfolio
 [link](https://crestatic.github.io/2_Professional_Portfolio/)
 
 # Image of Website (Medium)
-![alttext](assets/images/127.0.0.1_5501_index.html%20(M))
+![alttext](./assets/images/Medium-screenshot.png)
 
 # Image of Website (Large)
-![alttext](assets/images/127.0.0.1_5501_index.html%20(L))
+![alttext](./assets/images/Large-screenshot.png)
